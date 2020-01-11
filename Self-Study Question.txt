@@ -1,0 +1,28 @@
+1. What is the difference between an adaptive website and a fully responsive website?
+Responsive sites and adaptive sites are the same in that they both change appearance based on the browser environment they are being viewed on (the most common thing: the browser's width).
+
+Responsive websites respond to the size of the browser at any given point. No matter what the browser width may be, the site adjusts its layout (and perhaps functionality) in a way that is optimized to the screen. Is the browser 300px wide or 30000px wide? It doesn't matter because the layout will respond accordingly. Well, at least if it's done correctly!
+Adaptive websites adapt to the width of the browser at a specific points. In other words, the website is only concerned about the browser being a specific width, at which point it adapts the layout.
+
+2.Describe what it means to be mobile first vs desktop first
+Mobile first design
+This is a very focused approach that begins with designing for the main function of the site, then aims for higher resolutions (often called progressive enhancement). A good choice if:
+The number of hits from mobile is 80% and above or 50%, but the sales are higher on mobile devices
+The user experience needs to be optimized for mobile and it’s enough to be merely functional on desktop
+The site or interface has only a few core features
+The service or product has a rather interactive nature (entertainment, lifestyle, networking, news etc.)
+Desktop first design
+This approach means designing for the highest specifications — the best achievable by design- and then going down to smaller resolutions (often called graceful degradation). A good choice if:
+Both the number of visitors and the sales are higher on the desktop
+The site or interface is quite feature-rich, e.g. productivity, office or business tools
+The user experience needs to be highly refined on the desktop and it’s enough to be merely functional on mobile
+Some patches are required for the existing product, but the time and budget are limited
+
+3. What does font-size: 62.5% in the html tag do for us when using rem units?
+ with this method, each module instantly becomes compartmentalised and easier to style for the future. But also we can quickly adjust the font-size of every module without having to change large portions of the codebase. If we notice that the font-size of the whole website needs to be bumped up then just need to change a single value.
+
+4.How would you describe preprocessing to someone new to CSS?
+ is a program that lets you generate CSS from the preprocessor's own unique syntax. There are many CSS preprocessors to choose from, however most CSS preprocessors will add some features that don't exist in pure CSS, such as mixin, nesting selector, inheritance selector, and so 
+
+5.What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+for me i'm still learning so i can't tell yet which one is my favorite and which one is giving me headache or trouble
