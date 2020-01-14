@@ -1,13 +1,14 @@
 .button {
-  border: solid #22283A;
-  border-radius: 6px;
+  border: solid ;
+  border-radius: 8px;
+  text-align: center;
   padding: 2%;
+  width: 100px;
+}
+.anchor {
+  text-decoration: none;
   font-size: 18px;
   font-weight: bold;
-  text-align: center;
-  width: 100px;
-  background-color: #22283A;
-  color: #dee2e6;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -269,15 +270,21 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  border: solid #22283A;
-  border-radius: 6px;
+  border: solid ;
+  border-radius: 8px;
+  text-align: center;
   padding: 2%;
+  width: 100px;
+  text-decoration: none;
   font-size: 18px;
   font-weight: bold;
-  text-align: center;
-  width: 100px;
   background-color: #22283A;
   color: #dee2e6;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: red;
+  color: black;
+  border: solid red;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {

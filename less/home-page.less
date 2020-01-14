@@ -93,6 +93,15 @@
 
       .btn {
          .button();
+         .anchor();
+         .para-btn(@btn-bg-color, @border-real);
+         
+          
+          
+          &:hover {
+             .para-btn(red, black);
+              border: solid red;
+          }
 
 
        @media @mobile {

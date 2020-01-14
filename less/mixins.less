@@ -1,14 +1,22 @@
 // Mixins Here
 .button {
-    border: solid @btn-bg-color;
-    border-radius: 6px;
-    padding: 2%;
-    font-size: 18px;
-    font-weight: bold;
+    border: solid ;
+    border-radius: 8px;
     text-align: center;
+    padding: 2%;
     width: 100px;
-    background-color: @btn-bg-color;
-    color: @border-real;
 }
 
 
+
+.anchor {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.para-btn(@background, @color) {
+    background-color: @background;
+    color: @color;
+}
