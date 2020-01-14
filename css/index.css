@@ -1,5 +1,5 @@
 .button {
-  border: solid ;
+  border: solid #22283A;
   border-radius: 8px;
   text-align: center;
   padding: 2%;
@@ -270,7 +270,7 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  border: solid ;
+  border: solid #22283A;
   border-radius: 8px;
   text-align: center;
   padding: 2%;
@@ -282,9 +282,9 @@ footer {
   color: #dee2e6;
 }
 .home .walk .walk-text .btn:hover {
-  background-color: red;
+  background-color: #dee2e6;
   color: black;
-  border: solid red;
+  border: solid #dee2e6;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
